@@ -52,7 +52,7 @@ def page3():
 	cap.release()
 	headers = {
 	'Content-Type': 'application/octet-stream',
-	'Ocp-Apim-Subscription-Key': 'ede61ba219da4f95849c6aca8134b17b'
+	'Ocp-Apim-Subscription-Key': '2df40be23f25464eb5106e0d642274e5'
 	}
 	params = urllib.parse.urlencode({
 	'returnFaceId': 'true',
