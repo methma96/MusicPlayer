@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" type="text/css" href="animation.css"> -->
+
+    <!--Load high stock js-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!--High map js-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+
+    <title>Emotion Based Song Suggestor</title>
+
+    <style>
+		body{
+			background-color: skyblue;
+		}
+
+
+
+    	.logo{
+
+		 	height: 50px;
+		 	padding-right: 15px;
+		 	padding-left: 5px;
+ 		}
+	.face{
+
+		 	height: 500px;
+		 	padding-right: 15px;
+		 	padding-left: 5px;
+			padding-top: 15px;
+ 		}
+	a.button {
+width:150px;
+height:35px;
+padding-top:15x;
+padding-left:50x;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+background-color:#005580;
+    text-decoration: none;
+text-align:center;
+    color: white;
+}
+
+
+
+    </style>
+	</style>
+
+  </head>
+<body>
+	<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  		<a class="navbar-brand" href="#"><!-- <img src="logo.jpg" class="img-responsive logo"> -->
+  			<img class="img-responsive logo" src="{{url_for('static', filename='logo.jpg')}}" /></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item ">
+        			<a class="nav-link" href="{{ url_for('home') }}">Home <!-- <span class="sr-only">(current)</span> --></a>
+      			</li>
+
+    		</ul>
+
+  		</div>
+	</nav>
+	<h1  class="display-4 text-center text-dark ">Step 2</h1>
+	<div class="container">
+
+  		<div class="jumbotron m-5">
+		<h1  class="display-2 text-center text-primary font-weight-bold "></h1>
+		  <p class="lead font-weight-bold">Playlist Path </p>
+
+<hr class="my-4">
+		  <p class="text-info">Copy and paste the path to the playlist folder.</p>
+
+		<form id="frmMain" action="/page5" name="frmMain" method="POST">
+    <input type="text" id="myFile" name="myFile"/>
+    <button type="submit" class="btn btn-dark">Generate Playlist</button>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
