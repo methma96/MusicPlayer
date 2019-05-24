@@ -63,7 +63,7 @@ def page3():
 			data=file.read()
 	headers = {
 	'Content-Type': 'application/octet-stream',
-	'Ocp-Apim-Subscription-Key': '3e2333b880434e57a1793be3734ecdfc'
+	'Ocp-Apim-Subscription-Key': '5a832add4a124d8d903bb71071b3a8f3'
 	}
 	params = urllib.parse.urlencode({
 	'returnFaceId': 'true',
@@ -85,6 +85,7 @@ def page3():
 
 
 	except Exception as e:
+		return redirect(url_for('page2'))
 		print("[Errno {0}] {1}".format(e.errno, e.strerror))
 
 
