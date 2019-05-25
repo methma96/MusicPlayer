@@ -405,7 +405,7 @@ def page5():
 
 			
 	elif(emo=='anger'):
-		sql="SELECT DISTINCT songName FROM Songs where emotionType='angry'"
+		sql="SELECT DISTINCT songName FROM Songs where emotionType='relax'"
 		try:
 			cursor.execute(sql)
 
